@@ -23,6 +23,7 @@ def is_input_letter_valid(letter):
     if not letter.isascii() or not letter.islower():
         print("Please enter a lowercase English letter")
         return False
+
     return True
 
 
